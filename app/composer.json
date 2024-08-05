@@ -1,0 +1,13 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "11.*"
+  },
+  "config": {
+    "vendor-dir": "/tags_parser/vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/classes/"
+    }
+  }
+}
